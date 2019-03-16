@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Présentation de la BeerPoney</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="images/verredebière.jpg" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+							<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+				  <!-- Brand/logo -->
+				  <a class="navbar-brand" href="#">
+				    <img src="images/verredebière.jpg" alt="logo" style="width:150px;">
+				  </a>
+				  
+				  <!-- Links -->
+				  <ul class="navbar-nav">
+				    <li class="nav-item">
+				      <a class="nav-link" href="index.html">Retour à la page d'accueil</a>
+				    </li>
+				  </ul>
+				</nav>
+		</header>
+		<div class="toast" data-autohide="false">
+    <div class="toast-header">
+      <strong class="mr-auto text-primary">N'oubliez pas !</strong>
+      <small class="text-muted">5 mins ago</small>
+      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+    </div>
+    <div class="toast-body">
+      Une bière achetée ! 3 bières offertes !<br>
+      <span style="color: red;">*limitée à une 1 offre par famille, et dans la limite des stocks disponibles</span>
+    </div>
+  </div>
+		
+				<div class="media border p-3">
+  			<img src="images/img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+  				<div class="media-body">
+   				 <h4>Kevin Poney<small><i>Posté le 15 MARS 2019</i></small></h4>
+    			<p>Cette bière de caractère légèrement ambrée est produite à Stuttgart en Allemagne par Kevin et Julien. 
+		Basé sur une recette simple à base de levure, d'eau de source et de pain fournis par les boulangeries dans un rayon de 10 km, le brassage est la clé de voûte pour la création d'une bière de qualité. Nous participons ainsi à rejoindre le mouvement locavore. Afin d'affiner encore plus notre produit, nous utilisons le cuivre pour nos cuves, qui donne un goût inimitable à notre BeerPoney.<br/><br/>Cette bière douce (5°) d'une couleur ambrée fait ressortir des arômes épicés avec une pointe d'orange.
+		La contenance de notre bouteille en verre BeerPoney est de 15cl.</p>
+    			<div class="media p-3">
+     			 <img src="images/img_avatar3.png" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+      			<div class="media-body">
+        			<h4>Julien Beer <small><i>Posté le 15 MARS 2019</i></small></h4>
+        			<p>WWWeeessshhh !!! Aboule la bouteille ! :)</p>
+      			</div>
+   			 </div>
+   			 <div class="media p-3">
+     			 <img src="images/img_avatar3.png" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+      			<div class="media-body">
+        			<h4>Kevin Poney <small><i>Posté le 15 MARS 2019</i></small></h4>
+        			<p><span style="color: blue;">@Julien Beer</span> on joue au Lego ?</p>
+      			</div>
+   			 </div>
+   			 <div class="media p-3">
+     			 <img src="images/img_avatar3.png" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+      			<div class="media-body">
+        			<h4>Julien Beer <small><i>Posté le 15 MARS 2019</i></small></h4>
+        			<p><span style="color: blue;">@Kevin Poney</span> OOuuaiis !!!!</p>
+      			</div>
+   			 </div>   
+  			</div>
+		</div>
+
+
+
+		<footer>
+			<p class="Copyright">Copyright &copy; 2019 - 2020 Tous droits réservé !
+				<br>
+				<p class="Mentions">Mentions légales : Julien et Kevin | SIRET: 555222333666</p>
+			</p>
+		</footer>
+	<script>
+		$(document).ready(function(){
+  $('.toast').toast('show');
+});
+	</script>
+	</body>
+</html>
