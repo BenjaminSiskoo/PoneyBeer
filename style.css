@@ -1,0 +1,38 @@
+body {
+	background: black;
+}
+
+footer p.Copyright{
+    text-align: center;
+}
+
+footer p.Mentions{
+    text-align: center;
+}
+
+.ficheproduit
+{
+
+}
+
+.titreproduit
+{
+
+}
+
+.imageproduit
+{
+	width: 100px;
+	height: 250px;
+}
+
+.texteproduit
+{
+
+}
+
+.prixproduit
+{
+
+}
+

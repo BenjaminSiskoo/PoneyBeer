@@ -1,7 +1,53 @@
-footer p.Copyright{
+body
+
+{
+	width :100%;
+}
+
     text-align: center;
 }
 
 footer p.Mentions{
     text-align: center;
 }
+
+.fichebiere
+{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.ficheproduit
+{
+	width: 33.33%;
+	text-align: center;
+
+}
+
+.titreproduit
+{
+	font-size:30px;
+}
+
+img
+{
+	width: 100px;
+	height: 250px;
+}
+
+.imageproduit
+{
+	padding:10px;
+}
+
+.texteproduit
+{
+	font-size: 15px;
+}
+
+.prixproduit
+{
+	font-size: 25px;
+}
+
